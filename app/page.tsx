@@ -1,7 +1,5 @@
 'use client'
 
-export const dynamic = 'force-dynamic'
-
 import { useState, useEffect, useCallback } from 'react'
 import { supabase, FoodLog, WeightLog, DailyLog, Profile, FavouriteFood } from '@/lib/supabase'
 import { User } from '@supabase/supabase-js'
